@@ -320,10 +320,17 @@ img.pixel-art-image {
 }
 h2.watts-happening {
   font-family: "Press Start 2P", sans-serif;
+  font-size: 32px;
 }
 img.section-img {
   border: 8px solid rgb(223, 96, 132);
   width: 256px;
   max-width: 100%;
 }
-
+a.watts-happening-link, a.watts-happening-link:link, a.watts-happening-link:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+a.watts-happening-link:hover, a.watts-happening-link:active {
+  color: rgb(223, 96, 132);
+}
